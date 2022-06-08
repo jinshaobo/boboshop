@@ -1,0 +1,13 @@
+SSM波波商城项目
+
+1.新建maven web项目
+2.配置pom.xml文件，加ssm框架所用依赖
+3.配置属性配置文件
+4.新建applicationContext_dao.xml数据访问层的配置
+5.新建applicationContext_service.xml业务逻辑层的配置
+6.新建springmvc.xml
+7.sqlMapConfig.xml文件 进行分页插件的配置
+8.使用逆向工程生成pojo和mapper的文件
+9.开发业务逻辑层，实现登录判断
+10.开发控制器AdminAction完成登录处理
+11.改造页面，发送登录请求，验证登录
